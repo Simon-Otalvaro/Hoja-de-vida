@@ -1,0 +1,82 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+header{
+    display: flex;
+    background-color: rgba(34, 15, 3, 0.61);
+    padding: 1rem;
+    text-align: center;
+    color: white;
+}
+.text1{
+    padding-top: 1rem;
+    text-align: center;
+}
+.img-1{
+    width: 10rem ;
+    height: 10rem;
+    padding-right: 1rem; 
+}
+.content-1{
+    text-align: left;
+    padding-top: 1rem;
+    padding-left: 2rem;
+    padding-bottom: 5px;
+    display: flex;
+}
+.title-1{
+    padding-top: 12px;
+    padding-left: 1rem;
+}
+.img-sena{
+    width: 2.5rem;
+    height: 2.5rem;
+}
+hr{
+    width: 22rem;
+    height: 3px;
+    padding-left: 15px;
+    border-radius: 2rem;
+    background-color: rgba(0, 0, 0, 0.61);
+}
+.image-card{
+    padding-top: -1rem;
+    width: 6rem;
+    height: 6rem;
+}
+.cards {
+    display: flex;
+    padding-top: 2rem;
+}
+.card {
+    border-radius: 10px;
+    margin: 0 10px;
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+.card:hover {
+    transform: translateY(-10px);
+}
+.image-card {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+.card-content {
+    justify-items: center;
+    padding: 1rem;
+    background-color: #dacbcb;
+    border-radius: 10px;
+}
+.blocks {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.references {
+    width: calc(50% - 2rem);  
+    border: 1px solid #c4b5b5;
+    box-sizing: border-box;
+    margin: 1rem
+}
