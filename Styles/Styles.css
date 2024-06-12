@@ -83,4 +83,17 @@ hr{
     box-sizing: border-box;
     margin: 1rem
 }
-
+.content-expe{
+    display: flex;
+    margin-top: 1rem;
+    margin-left: 1rem;  
+}
+.img-css{
+    width: 8rem;
+}
+.text-info{
+    padding-top: 3rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    text-align: center;
+}
