@@ -4,10 +4,10 @@
 }
 header{
     display: flex;
-    background-color: rgba(34, 15, 3, 0.61);
+    background-color: #bae2fd;
     padding: 1rem;
     text-align: center;
-    color: white;
+    color: black;
 }
 .text1{
     padding-top: 1rem;
@@ -17,9 +17,11 @@ header{
     width: 10rem ;
     height: 10rem;
     padding-right: 1rem; 
+    
 }
 /*Esta clase abarca tres secciones*/
 .content-1{
+    background-color: aliceblue;
     text-align: left;
     padding-top: 1rem;
     padding-left: 2rem;
@@ -35,7 +37,7 @@ header{
     height: 2.5rem;
 }
 hr{
-    width: 22rem;
+    width: 21rem;
     height: 3px;
     padding-left: 15px;
     border-radius: 2rem;
@@ -74,6 +76,8 @@ hr{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    justify-content: center;
+    background-color: #f0f8ff;
 }
 .references {
     padding-left: 0.5rem;
@@ -81,15 +85,35 @@ hr{
     border: 1px solid #c4b5b5;
     border-radius: 5px;
     box-sizing: border-box;
-    margin: 1rem
+    margin: 1rem;
+}
+.exp{
+    background-color: #e0f0fe;
 }
 .content-expe{
     display: flex;
     margin-top: 1rem;
     margin-left: 1rem;  
+    background-color: #e0f0fe;
 }
 .img-css{
-    width: 8rem;
+    width: 7.5rem;
+    height: 10rem;
+    padding-left: 1rem;
+}
+.img-css1{
+    width: 10rem;
+    padding-left: rem;
+}
+.img-css2{
+    width: 10rem;
+    padding-top: 2rem;
+}
+.img-css3{
+    width: 10rem;
+    height: 10rem;
+    padding-top: 3rem;
+    border-radius: 20rem;
 }
 .text-info{
     padding-top: 3rem;
@@ -97,3 +121,48 @@ hr{
     padding-right: 1rem;
     text-align: center;
 }
+
+@media screen and (min-width: 819px) and (max-width: 1553px) {
+    .text1{
+        padding-top: 4rem;
+        text-align: center;
+    }
+    hr{
+        width: 48rem;
+        height: 3px;
+        padding-left: 15px;
+        border-radius: 2rem;
+        background-color: black;
+    }
+    
+}
+
+@media screen and (min-width: 1558px)  {
+        .text1{
+            padding-top: 4rem;
+            text-align: center;
+        }
+        hr{
+            width: 95rem;
+            height: 3px;
+            padding-left: 15px;
+            border-radius: 2rem;
+            background-color: black;
+        }
+        .cards{
+            background-color: #f0f8ff;
+            justify-content: center;
+        }
+        .blocks {
+            display: inline;
+        }
+        .references {
+            padding-left: 0.5rem;
+            width: calc(50% - 2rem);  
+            border: 1px solid #c4b5b5;
+            border-radius: 5px;
+            box-sizing: border-box;
+            margin: 1rem;
+        }
+       
+    }
